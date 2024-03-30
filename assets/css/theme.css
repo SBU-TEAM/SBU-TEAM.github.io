@@ -1623,7 +1623,7 @@ a.fg-light:hover, a.fg-light:focus {
 
 @media (min-width: 768px) {
   .page-banner.home-banner {
-    height: 900px;
+    height: 650px;
     /* height: fit-content; */
     max-height: unset;
   }
@@ -1701,7 +1701,7 @@ a.fg-light:hover, a.fg-light:focus {
   top: 40%;
   left: 0;
   right: 0;
-  /* bottom: 0; */
+  bottom: 0;
   margin: auto;
   padding: 0 16px;
   width: auto;
@@ -2403,5 +2403,17 @@ a.fg-light:hover, a.fg-light:focus {
 /*# sourceMappingURL=theme.css.map */
 
 div.center {
+  text-align: center;
+}
+
+/* @media (max-width: 576px) { */
+div.center img{
+  width : 100%;
+  height: 100%;
+}
+/* } */
+
+p.projects_sub {
+  margin-top: 10px;
   text-align: center;
 }
